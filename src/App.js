@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 function App() {
   const firebaseConfig = {
-    apiKey: "UR_API_KEY",
+    apiKey: process.env.FIREBASE_KEY,
     authDomain: "davvotingsystem.firebaseapp.com",
     projectId: "davvotingsystem",
     storageBucket: "davvotingsystem.appspot.com",
